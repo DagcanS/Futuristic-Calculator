@@ -8,9 +8,6 @@ Welcome to the **Futuristic Calculator** project! This web-based calculator comb
 
 ## Features
 
-- **Dynamic User Interface:** 
-  - The calculator boasts a responsive layout that adjusts seamlessly across various screen sizes, ensuring usability on desktops, tablets, and smartphones.
-
 - **Interactive Design:** 
   - Visually appealing buttons with hover effects enhance user interaction, making calculations feel intuitive and engaging.
 
