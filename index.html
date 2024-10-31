@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hesap Makinesi</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+        <div class="calculator">
+            <div class="screen" id="screen">0</div>
+            <div class="buttons">
+                <button class="operator" onclick="pressOperator('+')">+</button>
+                <button class="num" onclick="pressNumber(1)">1</button>
+                <button class="num" onclick="pressNumber(2)">2</button>
+                <button class="num" onclick="pressNumber(3)">3</button>
+                <button class="operator" onclick="pressOperator('-')">-</button>
+                <button class="num" onclick="pressNumber(4)">4</button>
+                <button class="num" onclick="pressNumber(5)">5</button>
+                <button class="num" onclick="pressNumber(6)">6</button>
+                <button class="operator" onclick="pressOperator('*')">*</button>
+                <button class="num" onclick="pressNumber(7)">7</button>
+                <button class="num" onclick="pressNumber(8)">8</button>
+                <button class="num" onclick="pressNumber(9)">9</button>
+                <button class="operator" onclick="pressOperator('/')">/</button>
+                <button class="num zero" onclick="pressNumber(0)">0</button>
+                <button class="clear" onclick="clearScreen()">C</button>
+                <button class="theme-toggle" onclick="toggleTheme()">
+                    <i class="fas fa-sun" id="theme-icon"></i>
+                </button>
+                <button class="equal" onclick="calculate()">=</button>
+            </div>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
