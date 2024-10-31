@@ -4,6 +4,8 @@
 
 Welcome to the **Futuristic Calculator** project! This web-based calculator combines a modern, sleek interface with powerful functionality, designed to provide users with a seamless and enjoyable experience. Built using HTML, CSS, and JavaScript, the calculator offers a host of features that elevate it beyond traditional calculators.
 
+![Calculator Screenshot](screenshot.png)
+
 ## Features
 
 - **Dynamic User Interface:** 
